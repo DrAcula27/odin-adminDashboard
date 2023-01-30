@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Danielle Andrews" />
+    <meta name="description" content="Admin Dashboard Project" />
+    <title>Admin Dashboard</title>
+    <!--font-awesome import for icons-->
+    <script
+      src="https://kit.fontawesome.com/940af2685d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/svg+xml" href="./img/trello.svg" />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+  </head>
+  <body>
+    <aside>
+      <h1>
+        <i class="fa-brands fa-trello"></i>
+        <span>Dashboard</span>
+      </h1>
+      <nav>
+        <a title="Home" href="#"
+          ><i class="fa-solid fa-house"></i><span> Home</span></a
+        >
+        <a title="Profile" href="#"
+          ><i class="fa-solid fa-user"></i><span> Profile</span></a
+        >
+        <a title="Messages" href="#"
+          ><i class="fa-solid fa-message"></i><span> Messages</span></a
+        >
+        <a title="History" href="#"
+          ><i class="fa-solid fa-clock-rotate-left"></i><span> History</span></a
+        >
+        <a title="Tasks" href="#"
+          ><i class="fa-solid fa-list-check"></i><span> Tasks</span></a
+        >
+        <a title="Communities" href="#"
+          ><i class="fa-solid fa-people-group"></i><span> Communities</span></a
+        >
+        <a title="Settings" href="#"
+          ><i class="fa-solid fa-gear"></i><span> Settings</span></a
+        >
+        <a title="Support" href="#"
+          ><i class="fa-solid fa-circle-question"></i><span> Support</span></a
+        >
+        <a title="Privacy" href="#"
+          ><i class="fa-solid fa-eye-slash"></i><span> Privacy</span></a
+        >
+      </nav>
+    </aside>
+    <main>
+      <header>
+        <div>
+          <form>
+            <label for="search-box"></label>
+            <button>
+              <i class="fa-solid fa-magnifying-glass"> </i>
+            </button>
+            <input
+              type="search"
+              name="search-box"
+              id="search-box"
+              placeholder="Search..."
+              autocomplete="off"
+            />
+          </form>
+        </div>
+        <div>
+          <div id="title">
+            <h2>
+              <img src="./img/odin-logo.png" alt="Odin Logo" />The Odin Project
+            </h2>
+          </div>
+          <div id="links">
+            <a href="#">New</a>
+            <a href="#">Upload</a>
+            <a href="#">Share</a>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div id="projects">
+          <h3>My Projects</h3>
+          <!-- project grid -->
+          <div>
+            <!-- google homepage -->
+            <article>
+              <h4>
+                <a
+                  href="https://dracula27.github.io/google-homepage/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-google" id="icon"></i>
+                  Google Homepage Clone
+                </a>
+              </h4>
+              <img
+                src="https://via.placeholder.com/350x150.png/000000/ffffff?text=350+x+150+placeholder"
+                alt="thumbnail"
+              />
+              <h5>The Odin Project - Foundations - Google Homepage - OLD</h5>
+              <p>
+                The goal of this project is to complete a deconstruction and
+                simplified rebuild of the Google Search homepage.
+              </p>
+              <div>
+                <a
+                  href="https://dracula27.github.io/google-homepage/"
+                  title="Live Demo"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-eye"></i>
+                </a>
+                <a
+                  href="https://github.com/DrAcula27/google-homepage"
+                  title="GitHub Repo"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </article>
+            <!-- recipes -->
+            <article>
+              <h4>
+                <a
+                  href="https://dracula27.github.io/odin-recipes/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-utensils" id="icon"></i>
+                  Basic Recipe Website
+                </a>
+              </h4>
+              <img
+                src="https://via.placeholder.com/350x150.png/000000/ffffff?text=350+x+150+placeholder"
+                alt="thumbnail"
+              />
+              <h5>
+                The Odin Project - Foundations - HTML Foundations - Basic Recipe
+                Website
+              </h5>
+              <p>
+                The goal of this project is to build on and cement my HTML
+                skills and knowledge.
+              </p>
+              <div>
+                <a
+                  href="https://dracula27.github.io/odin-recipes/"
+                  title="Live Demo"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-eye"></i>
+                </a>
+                <a
+                  href="https://github.com/DrAcula27/odin-recipes"
+                  title="GitHub Repo"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </article>
+            <!-- landing page -->
+            <article>
+              <h4>
+                <a
+                  href="https://dracula27.github.io/odin-landing-page/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-newspaper" id="icon"></i>
+                  Landing Page
+                </a>
+              </h4>
+              <img
+                src="https://via.placeholder.com/350x150.png/000000/ffffff?text=350+x+150+placeholder"
+                alt="thumbnail"
+              />
+              <h5>
+                The Odin Project - Foundations - Flexbox - Project: Landing Page
+              </h5>
+              <p>
+                The goal of this project is to clone a landing page website
+                using HTML and CSS.
+              </p>
+              <div>
+                <a
+                  href="https://dracula27.github.io/odin-landing-page/"
+                  title="Live Demo"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-eye"></i>
+                </a>
+                <a
+                  href="https://dracula27.github.io/odin-landing-page/"
+                  title="GitHub Repo"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </article>
+            <!-- etch-a-sketch -->
+            <article>
+              <h4>
+                <a
+                  href="https://dracula27.github.io/odin-etch-a-sketch/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-tablet-screen-button"></i>
+                  Etch-A-Sketch
+                </a>
+              </h4>
+              <img
+                src="https://via.placeholder.com/350x150.png/000000/ffffff?text=350+x+150+placeholder"
+                alt="thumbnail"
+              />
+              <h5>
+                The Odin Project - Foundations - JavaScript Basics - Project:
+                Etch-a-Sketch
+              </h5>
+              <p>
+                The goal of this project is to continue to build on and cement
+                my HTML, CSS, JavaScript, and DOM manipulation skills and
+                knowledge.
+              </p>
+              <div>
+                <a
+                  href="https://dracula27.github.io/odin-etch-a-sketch/"
+                  title="Live Demo"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-eye"></i>
+                </a>
+                <a
+                  href="https://github.com/DrAcula27/odin-etch-a-sketch"
+                  title="GitHub Repo"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </article>
+            <!-- calculator -->
+            <article>
+              <h4>
+                <a
+                  href="https://dracula27.github.io/odin-calculator/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-calculator"></i>
+                  Calculator
+                </a>
+              </h4>
+              <img
+                src="https://via.placeholder.com/350x150.png/000000/ffffff?text=350+x+150+placeholder"
+                alt="thumbnail"
+              />
+              <h5>
+                The Odin Project - Foundations - JavaScript Basics - Project:
+                Calculator
+              </h5>
+              <p>
+                The goal of this project is to continue to build on and cement
+                my HTML, CSS, JavaScript, and DOM manipulation skills and
+                knowledge.
+              </p>
+              <div>
+                <a
+                  href="https://dracula27.github.io/odin-calculator/"
+                  title="Live Demo"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-eye"></i>
+                </a>
+                <a
+                  href="https://github.com/DrAcula27/odin-calculator"
+                  title="GitHub Repo"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </article>
+            <!-- rock-paper-scissors -->
+            <article>
+              <h4>
+                <a
+                  href="https://dracula27.github.io/odin-rock-paper-scissors/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-hand-rock"></i>
+                  Rock
+                  <i class="fa-solid fa-hand-paper"></i>
+                  Paper
+                  <i class="fa-solid fa-hand-scissors"></i>
+                  Scissors
+                </a>
+              </h4>
+              <img
+                src="https://via.placeholder.com/350x150.png/000000/ffffff?text=350+x+150+placeholder"
+                alt="thumbnail"
+              />
+              <h5>
+                The Odin Project - Foundations - JavaScript Basics - Project:
+                Rock, Paper, Scissors
+              </h5>
+              <p>
+                The goal of this project is to build on and cement my JavaScript
+                skills and knowledge.
+              </p>
+              <div>
+                <a
+                  href="https://dracula27.github.io/odin-rock-paper-scissors/"
+                  title="Live Demo"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-eye"></i>
+                </a>
+                <a
+                  href="https://github.com/DrAcula27/odin-rock-paper-scissors"
+                  title="GitHub Repo"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </article>
+            <!-- sign-up form -->
+            <article>
+              <h4>
+                <a
+                  href="https://dracula27.github.io/odin-signUpForm/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-user-plus"></i>
+                  Sign-up Form
+                </a>
+              </h4>
+              <img
+                src="https://via.placeholder.com/350x150.png/000000/ffffff?text=350+x+150+placeholder"
+                alt="thumbnail"
+              />
+              <h5>
+                The Odin Project - Full Stack JavaScript - Intermediate HTML &
+                CSS - Project: Sign-up Form
+              </h5>
+              <p>
+                Create a sign-up form for an imaginary service using client-side
+                validation.
+              </p>
+              <div>
+                <a
+                  href="https://dracula27.github.io/odin-signUpForm/"
+                  title="Live Demo"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-eye"></i>
+                </a>
+                <a
+                  href="https://github.com/DrAcula27/odin-signUpForm"
+                  title="GitHub Repo"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div id="exercises">
+          <h3>CSS Exercises</h3>
+          <article>
+            <!-- 01-css-methods -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/foundations/01-css-methods"
+                target="_blank"
+                >CSS Methods</a
+              >
+            </h4>
+            <p>
+              Practice adding CSS to an HTML file using all three methods:
+              external CSS, internal CSS, and inline CSS.
+            </p>
+            <!-- 02-class-id-selectors -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/foundations/02-class-id-selectors"
+                target="_blank"
+                >Class and Id Selectors</a
+              >
+            </h4>
+            <p>Practice class and id css selectors.</p>
+            <!-- 03-grouping-selectors -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/foundations/03-grouping-selectors"
+                target="_blank"
+                >Grouping Selectors</a
+              >
+            </h4>
+            <p>Practice grouping css selectors.</p>
+            <!-- 04-chaining-selectors -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/foundations/04-chaining-selectors"
+                target="_blank"
+                >Chaining Selectors</a
+              >
+            </h4>
+            <p>Practice chaining css selectors.</p>
+            <!-- 05-descendant-combinator -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/foundations/05-descendant-combinator"
+                target="_blank"
+                >Descendant Combinator</a
+              >
+            </h4>
+            <p>Practice using the descendant combinator.</p>
+            <!-- 06-cascade-fix -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/foundations/06-cascade-fix"
+                target="_blank"
+                >Cascade Fix</a
+              >
+            </h4>
+            <p>Fix the cascade to achieve desired outcome.</p>
+            <!-- 01-margin-and-padding-1 -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/margin-and-padding/01-margin-and-padding-1"
+                target="_blank"
+                >Margin and Padding 1</a
+              >
+            </h4>
+            <p>
+              Edit style.css so that the divs look like the desired outcome.
+            </p>
+            <!-- 02-margin-and-padding-2 -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/margin-and-padding/01-margin-and-padding-2"
+                target="_blank"
+                >Margin and Padding 2</a
+              >
+            </h4>
+            <p>
+              Use margin and padding to style a card to look like the desired
+              outcome.
+            </p>
+            <!-- 01-flex-center -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/flex/01-flex-center"
+                target="_blank"
+                >Flex Center</a
+              >
+            </h4>
+            <p>Use flex to center a div.</p>
+            <!-- 02-flex-header -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/flex/02-flex-header"
+                target="_blank"
+                >Flex Header</a
+              >
+            </h4>
+            <p>Use flex to create a very common webpage header style.</p>
+            <!-- 03-flex-header-2 -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/flex/03-flex-header-2"
+                target="_blank"
+                >Flex Header 2</a
+              >
+            </h4>
+            <p>Use flex to create another very common webpage header style.</p>
+            <!-- 04-flex-information -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/flex/04-flex-information"
+                target="_blank"
+                >Flex Information</a
+              >
+            </h4>
+            <p>
+              Use flex to recreate a section that is found on many informational
+              websites.
+            </p>
+            <!-- 05-flex-modal -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/flex/05-flex-modal"
+                target="_blank"
+                >Flex Modal</a
+              >
+            </h4>
+            <p>Use flex to style a modal.</p>
+            <!-- 06-flex-layout -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/flex/06-flex-layout"
+                target="_blank"
+                >Flex Layout</a
+              >
+            </h4>
+            <p>Use flex to layout an entire page.</p>
+            <!-- 07-flex-layout-2 -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/flex/07-flex-layout-2"
+                target="_blank"
+                >Flex Layout 2</a
+              >
+            </h4>
+            <p>Use flex to create the Holy Grail layout.</p>
+            <!-- 01-grid-layout-1 -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/grid/01-grid-layout-1"
+                target="_blank"
+                >Grid Layout 1</a
+              >
+            </h4>
+            <p>Use grid to create the Holy Grail layout.</p>
+            <!-- 02-grid-layout-2 -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/grid/02-grid-layout-2"
+                target="_blank"
+                >Grid Layout 2</a
+              >
+            </h4>
+            <p>Use grid to create a responsive Holy Grail layout.</p>
+            <!-- 03-grid-layout-3 -->
+            <h4>
+              <a
+                href="https://github.com/DrAcula27/css-exercises/tree/main/grid/03-grid-layout-3"
+                target="_blank"
+                >Grid Layout 3</a
+              >
+            </h4>
+            <p>Use grid to create a responsive Holy Grail mockup.</p>
+          </article>
+          <div id="javascript">
+            <div id="js">
+              <h3>JavaScript Exercises</h3>
+              <article>
+                <!-- 01_helloWorld -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/01_helloWorld"
+                    target="_blank"
+                    >Hello World</a
+                  >
+                </h4>
+                <p>
+                  Walk through the process of running tests and make sure
+                  everything is set up and running correctly.
+                </p>
+                <!-- 02_repeatString -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/02_repeatString"
+                    target="_blank"
+                    >Repeat String</a
+                  >
+                </h4>
+                <p>
+                  Write a function that simply repeats the string a given number
+                  of times.
+                </p>
+                <!-- 03_reverseString -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/03_reverseString"
+                    target="_blank"
+                    >Reverse String</a
+                  >
+                </h4>
+                <p>
+                  Write a function called reverseString that returns its input,
+                  reversed.
+                </p>
+                <!-- 04_removeFromArray -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/04_removeFromArray"
+                    target="_blank"
+                    >Remove From Array</a
+                  >
+                </h4>
+                <p>
+                  Implement a function that takes an array and some other
+                  arguments then removes the other arguments from that array.
+                </p>
+                <!-- 05_sumAll -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/05_sumAll"
+                    target="_blank"
+                    >Sum All</a
+                  >
+                </h4>
+                <p>
+                  Implement a function that takes 2 integers and returns the sum
+                  of every number between(and including) them.
+                </p>
+                <!-- 06_leapYears -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/06_leapYears"
+                    target="_blank"
+                    >Leap Years</a
+                  >
+                </h4>
+                <p>
+                  Create a function that determines whether or not a given year
+                  is a leap year.
+                </p>
+                <!-- 07_tempConversion -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/07_tempConversion"
+                    target="_blank"
+                    >Temp Conversion</a
+                  >
+                </h4>
+                <p>
+                  Write two functions that convert temperatures from Fahrenheit
+                  to Celsius, and vice versa.
+                </p>
+                <!-- 08_calculator -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/08_calculator"
+                    target="_blank"
+                    >Calculator</a
+                  >
+                </h4>
+                <p>
+                  Create a calculator that: adds 2 numbers, subtracts 2 numbers,
+                  sums an array of numbers, multiplies all values of an array of
+                  numbers together, takes 1 number to the power of a second
+                  number, and finds the factorial of a number.
+                </p>
+                <!-- 09_palindromes -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/09_palindromes"
+                    target="_blank"
+                    >Palindromes</a
+                  >
+                </h4>
+                <p>
+                  Write a function that determines whether or not a given string
+                  is a palindrome.
+                </p>
+                <!-- 10_fibonacci -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/10_fibonacci"
+                    target="_blank"
+                    >Fibonacci</a
+                  >
+                </h4>
+                <p>
+                  Create a function that returns a specific member of the
+                  Fibonacci sequence.
+                </p>
+                <!-- 11_getTheTitles -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/11_getTheTitles"
+                    target="_blank"
+                    >Get the Titles</a
+                  >
+                </h4>
+                <p>
+                  Given an array of objects, write a function that takes the
+                  array and returns an array of titles.
+                </p>
+                <!-- 12_findTheOldest -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/12_findTheOldest"
+                    target="_blank"
+                    >Find the Oldest</a
+                  >
+                </h4>
+                <p>
+                  Given an array of objects representing people with a birth and
+                  death year, return the oldest person.
+                </p>
+                <!-- 13_caesar -->
+                <h4>
+                  <a
+                    href="https://github.com/DrAcula27/javascript-exercises/tree/main/13_caesar"
+                    target="_blank"
+                    >Caesar Cipher</a
+                  >
+                </h4>
+                <p>Implement the legendary Caesar cipher.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        |
+        <span id="footer-span">
+          Crafted with <i class="fa-solid fa-heart"></i> by </span
+        >DrAcula27 |
+      </p>
+      <a href="https://github.com/DrAcula27" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <p>|</p>
+      <a href="https://www.linkedin.com/in/daniellerandrews/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </footer>
+  </body>
+</html>
