@@ -8,8 +8,12 @@
 
 [See the live project](https://DrAcula27.github.io/odin-adminDashboard/)
 
-Static Demo
-![Full Page Screenshot](./img/admin-dashboard.png)
+Static Demo:
+![Full Page Screenshot](./img/admin-dashboard.png#bordered)
+
+img[src$="#bordered"] {
+  border: 1px solid #dd6387;
+}
 
 ## Author
 
