@@ -6,11 +6,13 @@
 
 ## Demo
 
-[See the live project](https://DrAcula27.github.io/odin-adminDashboard/)
+[Click to View the Live Demo](https://DrAcula27.github.io/odin-adminDashboard/)
 
-### Static Demo:
+#### Static Demo:
 
-<img src="./img/admin-dashboard.png#bordered" alt="static demo" border: 1px solid #dd6387; />
+<kbd>
+  <img src="./img/admin-dashboard.png#bordered" alt="static demo" />
+</kbd>
 
 ## Author
 
