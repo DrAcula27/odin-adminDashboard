@@ -8,6 +8,9 @@
 
 [See the live project](https://DrAcula27.github.io/odin-adminDashboard/)
 
+Static Demo
+![Full Page Screenshot](./img/admin-dashboard.png)
+
 ## Author
 
 👤 **Danielle Andrews**

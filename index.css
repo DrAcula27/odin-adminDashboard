@@ -295,6 +295,11 @@ section article {
   justify-content: stretch;
 }
 
+#projects article:hover {
+  box-shadow: inset 0.5em 0 0 var(--action-color), var(--action-box-shadow);
+  border: 1px solid var(--action-color);
+}
+
 #projects a {
   color: var(--primary-light-color);
 }
