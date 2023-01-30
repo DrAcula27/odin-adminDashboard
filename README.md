@@ -1,16 +1,4 @@
 <h1 align="center">Welcome to odin-adminDashboard!</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/DrAcula27/odin-adminDashboard#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/DrAcula27/odin-adminDashboard/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/DrAcula27/odin-adminDashboard" />
-  </a>
-</p>
 
 > The Odin Project - Full Stack JavaScript - Intermediate HTML and CSS - PROJECT: Admin Dashboard
 
@@ -19,8 +7,6 @@
 ## Demo
 
 [See the live project](https://DrAcula27.github.io/odin-adminDashboard/)
-
-### 🏠 [Homepage](https://github.com/DrAcula27/odin-adminDashboard#readme)
 
 ## Author
 
@@ -31,7 +17,7 @@
 
 ## Project Details
 
-[View the assignment on TOP](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
+View the assignment at [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
 ### Project Goals
 
@@ -44,15 +30,14 @@
 ## Future Work
 
 - Add to this page as I complete more projects through The Odin Project.
-- Add JavaScript to improve UI.
-  - Light/Dark modes
-  - Make search bar actually work
+- Add JavaScript to:
+  - Dynamically add HTML
+  - Switch between Light and Dark modes
+  - Make the search bar actually work
 
 ## Attributions
 
-- Favicon: [Material Design Icons](https://pictogrammers.com/library/mdi/)
 - Icons: [Fontawesome](https://fontawesome.com/)
-- Etch-a-Sketch icon: <a href="https://www.flaticon.com/free-icons/etch-a-sketch" title="Etch a sketch icons">Etch a sketch icons created by Creaticca Creative Agency - Flaticon</a>
 
 ## Show Your Support
 
