@@ -11,7 +11,7 @@
 #### Static Demo:
 
 <kbd>
-  <img src="./img/admin-dashboard.png#bordered" alt="static demo" />
+  <img src="./img/admin-dashboard.png" alt="static demo" />
 </kbd>
 
 ## Author
@@ -31,7 +31,10 @@ View the assignment at [The Odin Project](https://www.theodinproject.com/lessons
 1. Practice nesting grids.
 1. (extra) Make the page responsive.
 
-- Provided project design file: ![dashboard-project.png](https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png)
+- Provided project design file:
+  <kbd>
+    <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png" alt="design file" />
+  </kbd>
 
 ## Future Work
 
